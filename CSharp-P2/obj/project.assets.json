@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bruno\\source\\repos\\CSharp-P2\\CSharp-P2\\ByteBank.csproj",
+      "projectUniqueName": "C:\\Users\\bruno\\source\\repos\\CSharp-P2\\Alura_CSharp-P2\\CSharp-P2\\ByteBank.csproj",
       "projectName": "ByteBank",
-      "projectPath": "C:\\Users\\bruno\\source\\repos\\CSharp-P2\\CSharp-P2\\ByteBank.csproj",
+      "projectPath": "C:\\Users\\bruno\\source\\repos\\CSharp-P2\\Alura_CSharp-P2\\CSharp-P2\\ByteBank.csproj",
       "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bruno\\source\\repos\\CSharp-P2\\CSharp-P2\\obj\\",
+      "outputPath": "C:\\Users\\bruno\\source\\repos\\CSharp-P2\\Alura_CSharp-P2\\CSharp-P2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
