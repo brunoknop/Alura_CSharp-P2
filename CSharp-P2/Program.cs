@@ -1,28 +1,24 @@
 ﻿using System;
 
-namespace CSharp_P2
+namespace ByteBank
 {
     class Program
     {
         static void Main(string[] args)
         {
-            ContaCorrente ContaBruno = new ContaCorrente();
-            ContaBruno.titular = "Bruno Knop";
-            ContaBruno.agencia = 987;
-            ContaBruno.numero = 654321;
-            ContaBruno.saldo = 123456.78;
+            Cliente bruno = new Cliente();
+            bruno.nome = "Bruno Knop";
+            bruno.profissão = "Desenvolvedor";
+            bruno.cpf = "123.456.789.00";
 
-            ContaCorrente ContaToia = new ContaCorrente();
-            ContaToia.titular = "Vitória Kayser Knop";
-            ContaToia.agencia = 987;
-            ContaToia.numero = 654321;
-            ContaToia.saldo = 100;
+            Console.WriteLine("Acessando o nome pelo cliente: " + bruno.nome);
 
-            ContaBruno.Sacar(654);
-            Console.WriteLine("");
-            ContaBruno.Depositar(789);
-            Console.WriteLine("");
-            ContaBruno.Transferir(4567, ContaToia);
+            ContaCorrente novaConta = new ContaCorrente();
+            novaConta.titular = bruno;
+            novaConta.numero = 5050;
+            novaConta.saldo = 10000;
+
+            Console.WriteLine("Acessando o nome pela conta: " + novaConta.titular.nome);
 
         }
     }
