@@ -31,4 +31,4 @@ As aulas estão sendo bastante práticas, com bastante mão na massa, e uma evol
 -----------------------------------------------------------------
 
 **Certificado:**
-![Certificado](https://cursos.alura.com.br/user/brunogknop/course/csharp-parte-2-introducao-orientacao-objetos/certificate)
+![Certificado](https://cursos.alura.com.br/certificate/2f4bda69-3f16-4cbb-b123-32fbc568261e)
