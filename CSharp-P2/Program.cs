@@ -7,19 +7,19 @@ namespace ByteBank
         static void Main(string[] args)
         {
             Cliente bruno = new Cliente();
-            bruno.nome = "Bruno Knop";
-            bruno.profissão = "Desenvolvedor";
-            bruno.cpf = "123.456.789.00";
+            bruno.Nome = "Bruno Knop";
+            bruno.Profissão = "Desenvolvedor";
+            bruno.Cpf = "12345678900";
 
-            Console.WriteLine("Acessando o nome pelo cliente: " + bruno.nome);
+            ContaCorrente contaBruno = new ContaCorrente();
+            contaBruno.Titular = bruno;
+            contaBruno.Numero = 5050;
+            contaBruno.Saldo = 10;
 
-            ContaCorrente novaConta = new ContaCorrente();
-            novaConta.titular = bruno;
-            novaConta.numero = 5050;
-            novaConta.saldo = 10000;
-
-            Console.WriteLine("Acessando o nome pela conta: " + novaConta.titular.nome);
-
+            Console.WriteLine("Titular da conta: " + contaBruno.Titular.Nome);
+            Console.WriteLine("O saldo da conta é: R$ " + contaBruno.Saldo);
+            Console.Write("O CPF do titular é: " + bruno.Cpf);
+            Console.WriteLine("\n");
         }
     }
 }
