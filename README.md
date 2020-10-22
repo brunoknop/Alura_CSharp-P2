@@ -19,6 +19,8 @@ As aulas estão sendo bastante práticas, com bastante mão na massa, e uma evol
     * Referências nulas;
     * Propriedades 'get' e 'set';
     * Objetos públicos/privados;
+    * Construtores
+    * Membros estáticos
 
 -----------------------------------------------------------------
 
@@ -27,3 +29,6 @@ As aulas estão sendo bastante práticas, com bastante mão na massa, e uma evol
 * A IDE utilizada foi o Visual Studio Community 2019
 
 -----------------------------------------------------------------
+
+**Certificado:**
+![Certificado](https://cursos.alura.com.br/user/brunogknop/course/csharp-parte-2-introducao-orientacao-objetos/certificate)
