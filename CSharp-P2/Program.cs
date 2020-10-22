@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace ByteBank
 {
@@ -9,7 +10,7 @@ namespace ByteBank
             Cliente bruno = new Cliente();
             bruno.Nome = "Bruno Knop";
             bruno.Profissão = "Desenvolvedor";
-            bruno.Cpf = "12345678900";
+            bruno.Cpf = "12345678000";
 
             ContaCorrente contaBruno = new ContaCorrente();
             contaBruno.Titular = bruno;
@@ -20,6 +21,7 @@ namespace ByteBank
             Console.WriteLine("O saldo da conta é: R$ " + contaBruno.Saldo);
             Console.Write("O CPF do titular é: " + bruno.Cpf);
             Console.WriteLine("\n");
+
         }
     }
 }

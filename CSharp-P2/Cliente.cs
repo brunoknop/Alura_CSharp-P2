@@ -14,6 +14,12 @@ namespace ByteBank
         {
             get
             {
+                if (_cpf == null)
+                {
+                    return "Este CPF não foi cadastrado corretamente";
+                }
+                else
+                {
                 char[] novoCpf = new char[14];
 
                 int countNovoCpf = 0;
@@ -43,8 +49,9 @@ namespace ByteBank
                 }
                 string mostraCpf = new string(novoCpf);
                 return mostraCpf;
+                }
             }
-           
+
             set
             {
                 if (value.Length != 11)
